@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:'Times New Roman', Times, serif
+}
+
+.container {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input, select, .dram {
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 10px;
+    padding: 20px 50px 20px 10px;
+    letter-spacing: 0.1px;
+    font-size: 20px;
+}
+
+input, #dram {
+    margin-right: 20px;
+}
+
+select {
+    font-weight: bold
+}
+
+.row2 {
+    margin-top: 20px;
+}
+
+.row2 select {
+    width: 260px;
+}

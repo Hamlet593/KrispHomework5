@@ -1,0 +1,57 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+#faq {
+    max-width: 90%;
+    margin: auto;
+    display: flex;
+}
+
+#faq h2 {
+    color: #0f172e;
+    max-width: 250px;
+    letter-spacing: 1px;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    margin-left: 50px;
+}
+
+.collapsible {
+    max-width: 770px;
+    margin-bottom: 20px;
+    padding: 24px 24px;
+    color: rgba(15,23,46,.8);
+    border: 1px solid #eaeef1;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: rgb(84, 56, 211);
+    font-size: 20px;
+    float: right;
+  }
+
+  .active:after {
+    content: "\2212";
+  }
+
+  .content {
+    color: rgba(15,23,46,.8);
+    max-width: 722px;
+    padding: 0 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 20px;
+  }
